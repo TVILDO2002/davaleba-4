@@ -1,0 +1,338 @@
+@font-face{
+    font-family: 'Poppins', sans-serif;
+    src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family:'Open Sans', sans-serif;
+    src: url(../font/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family: 'Andada Pro', serif;
+    src: url(../fonts/AndadaPro-Regular.ttf);
+}
+.container{
+    max-width: 1240px;
+    width: 90%;
+    margin: 0 auto;
+}
+.navigation-header{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.navigation-header li{
+    display: inline-block;
+    margin: 30px;
+    font-size: 18px;
+}
+.navigation-header a{
+    text-decoration: none;
+    color: black;
+}
+.navigation-header img{
+    display: block;
+}
+.upper-img{
+    margin-left: 4px;
+}
+.left-link{
+    float: left;
+    font-family: 'Malayalam MN';
+    font-size: 26px;
+    line-height: 37px;
+}
+.right-link{
+    float: right;
+    width: 16px;
+}
+.product-header{
+    font-family: 'FiraGO';
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 70px 0;
+}
+.product-wrapper{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    border-radius: 2px;
+}
+.product-content{
+    padding: 15px;
+    border: 1px solid #000000;
+    width: 333px;
+}
+.product-content img{
+    width: 100%;
+}
+.product-content h3{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+.product-content p{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    margin: 10px;
+}
+.product-button button{
+    margin-top: 20px;
+    background-color: inherit;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    float: right;
+    width: 118px;
+    height: 30px;
+    cursor: pointer;
+}
+.product-wrapper.middle{
+    margin: 0 100px;
+}
+.product-descriptorion{
+    display: inline-block;
+    margin-top: 60px;
+}
+.product-descriptorion.left{
+    margin-left: 35px;
+}
+.product-descriptorion.middle{
+    margin: 0 210px 50px 210px;
+}
+.product-link a{
+    float: right;
+    color: black;
+    font-size: 16px;
+    line-height: 132%;
+    text-decoration-line: underline;
+    padding-bottom: 60px;
+}
+.about-header{
+    font-family: 'Andada Pro', serif;
+    text-align: center;
+    margin-top: 130px;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.03em;
+    color: #7D0000;
+}
+
+.about-company{
+    font-family: 'Andada Pro', serif;
+    display: inline-block;
+    width: 650px;
+}
+.about-company p{
+    font-size: 25px;
+    line-height: 165%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    margin-top: 115px;
+}
+.about-company address{
+    margin-top: 90px;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    font-style: italic;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    float: right;
+}
+.company-picture{
+    width: 500px;
+    float: right;
+}
+.company-picture img{
+    margin-top: 185px;
+    width: 100%;
+    margin-right: 125px;
+}
+.blog-header{
+    margin: 45px 100px 20px 100px;
+}
+.blog-header h1{
+    display: inline-block;
+    font-size: 24px;
+    line-height: 29px;
+}
+.blog-header input{
+    width: 369px;
+    height: 47px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    float: right;
+}
+.blog-navigation{
+    text-align: center;
+    margin-top: 95px;
+}
+.blog-navigation li{
+    display: inline-block;
+    margin: 0 30px;
+}
+.blog-navigation a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+.blog{
+    margin-top: 65px;
+}
+.blog-img{
+    float: left;
+    width: 308px;
+    height: 228px;
+    margin-left: 100px;
+}
+.blog-img img{
+    background: #D9D9D9;
+    border-radius: 14px 0px 0px 14px;
+    width: 100%;
+    height: 100%;
+}
+.blog-info{
+    display: inline-block;
+    width: 918px;
+    height: 228px;
+    background: #E5EBE5;
+    border-radius: 0px 14px 14px 0px;
+    margin-left: 20px;
+}
+.blog-info h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 35px 0 35px 35px;
+}
+.blog-info p{
+    width: 850px;
+    margin-left: 35px;
+}
+.blog-button{
+    margin: 15px 190px 100px 0;
+}
+.blog-button button{
+    width: 174px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+}
+.contact-section{
+    font-family: 'Andada Pro', serif;
+}
+.contact-header{
+    text-align: center;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #7D0000;
+    margin: 150px 0 100px 0;
+}
+.contact-info{
+    text-align: center;
+    color: #0B253E;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 32px;
+}
+.contact-info ul{
+    display: inline-block;
+    margin: 0 150px;
+}
+.contact-info li{
+    margin-top: 25px;
+}
+.contact-info a{
+    color: #0B253E;
+}
+.map{
+    text-align: center;
+    margin-top: 144px;
+    margin-bottom: 100px;
+}
+.map iframe{
+    width: 908px;
+    height: 423px;
+}
+.profile{
+    margin-top: 170px;
+    margin-left: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+.profile-img{
+    display: inline-block;
+}
+.profile-headers{
+    display: inline-block;
+    margin-left: 65px;
+}
+.profile-headers h1{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.03em;
+    margin: 5px;
+}
+.profile-headers h2{
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #546CCC;
+}
+.user-info{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.user-info h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    width: 76px;
+    border-bottom: 1px solid #7D0000;;
+}
+.user-info ul{
+    margin-top: 30px;
+    display: inline-block;
+    list-style: none;
+}
+.user-info h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+.user-info li{
+    margin-top: 30px;
+}
+.profile-detailes{
+    margin-left: 150px;
+}
+.profile-detailes li{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+.profile-button button{
+    width: 265px;
+    height: 70px;
+    background: #87AC87;
+    border-radius: 10px;
+    float: right;
+    margin: 25px 200px 150px 0;
+    cursor: pointer;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
